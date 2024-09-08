@@ -10,3 +10,6 @@ D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Repositories\obj\D
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Repositories\obj\Debug\net8.0\refint\App.Repositories.dll
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Repositories\obj\Debug\net8.0\App.Repositories.pdb
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Repositories\obj\Debug\net8.0\ref\App.Repositories.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Repositories\obj\Debug\net8.0\App.Repositories.csproj.AssemblyReference.cache
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Repositories\bin\Debug\net8.0\App.Repositories.runtimeconfig.json
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Repositories\obj\Debug\net8.0\App.Repositories.genruntimeconfig.cache

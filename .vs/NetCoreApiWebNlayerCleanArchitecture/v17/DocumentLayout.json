@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D18F149-D805-4F56-B3B6-ED945571DE1B}|Repositories\\App.Repositories.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\repositories\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D18F149-D805-4F56-B3B6-ED945571DE1B}|Repositories\\App.Repositories.csproj|solutionrelative:repositories\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D18F149-D805-4F56-B3B6-ED945571DE1B}|Repositories\\App.Repositories.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\repositories\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D18F149-D805-4F56-B3B6-ED945571DE1B}|Repositories\\App.Repositories.csproj|solutionrelative:repositories\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D18F149-D805-4F56-B3B6-ED945571DE1B}|Repositories\\App.Repositories.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\repositories\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D18F149-D805-4F56-B3B6-ED945571DE1B}|Repositories\\App.Repositories.csproj|solutionrelative:repositories\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Repositories\\Product.cs",
+              "RelativeDocumentMoniker": "Repositories\\Product.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Repositories\\Product.cs",
+              "RelativeToolTip": "Repositories\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T22:03:15.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Repositories\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductConfiguration.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Repositories\\ProductConfiguration.cs",
+              "RelativeToolTip": "Repositories\\ProductConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T22:02:24.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Repositories\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\AppDbContext.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Repositories\\AppDbContext.cs",
+              "RelativeToolTip": "Repositories\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T21:54:54.535Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
