@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Repositories\\Repositories.csproj",
-      "projectName": "Repositories",
-      "projectPath": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Repositories\\App.Repositories.csproj",
+      "projectName": "App.Repositories",
+      "projectPath": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Repositories\\App.Repositories.csproj",
       "packagesPath": "C:\\Users\\eness\\.nuget\\packages\\",
       "outputPath": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Repositories\\obj\\",
       "projectStyle": "PackageReference",

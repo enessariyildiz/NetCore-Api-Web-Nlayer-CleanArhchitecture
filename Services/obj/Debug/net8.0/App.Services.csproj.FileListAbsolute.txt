@@ -1,0 +1,12 @@
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Services\bin\Debug\net8.0\App.Services.deps.json
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Services\bin\Debug\net8.0\App.Services.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Services\bin\Debug\net8.0\App.Services.pdb
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Services\obj\Debug\net8.0\App.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Services\obj\Debug\net8.0\App.Services.AssemblyInfoInputs.cache
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Services\obj\Debug\net8.0\App.Services.AssemblyInfo.cs
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Services\obj\Debug\net8.0\App.Services.csproj.CoreCompileInputs.cache
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Services\obj\Debug\net8.0\App.Services.sourcelink.json
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Services\obj\Debug\net8.0\App.Services.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Services\obj\Debug\net8.0\refint\App.Services.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Services\obj\Debug\net8.0\App.Services.pdb
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\Services\obj\Debug\net8.0\ref\App.Services.dll
