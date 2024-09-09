@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4313479B-F638-4D84-99D9-304D9C9AD31D}|App.API\\App.API.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\app.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4313479B-F638-4D84-99D9-304D9C9AD31D}|App.API\\App.API.csproj|solutionrelative:app.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D18F149-D805-4F56-B3B6-ED945571DE1B}|Repositories\\App.Repositories.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\repositories\\connectionstringoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D18F149-D805-4F56-B3B6-ED945571DE1B}|Repositories\\App.Repositories.csproj|solutionrelative:repositories\\connectionstringoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4313479B-F638-4D84-99D9-304D9C9AD31D}|App.API\\App.API.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\app.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4313479B-F638-4D84-99D9-304D9C9AD31D}|App.API\\App.API.csproj|solutionrelative:app.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D18F149-D805-4F56-B3B6-ED945571DE1B}|Repositories\\App.Repositories.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\repositories\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D18F149-D805-4F56-B3B6-ED945571DE1B}|Repositories\\App.Repositories.csproj|solutionrelative:repositories\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D18F149-D805-4F56-B3B6-ED945571DE1B}|Repositories\\App.Repositories.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\repositories\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D18F149-D805-4F56-B3B6-ED945571DE1B}|Repositories\\App.Repositories.csproj|solutionrelative:repositories\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D18F149-D805-4F56-B3B6-ED945571DE1B}|Repositories\\App.Repositories.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\repositories\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D18F149-D805-4F56-B3B6-ED945571DE1B}|Repositories\\App.Repositories.csproj|solutionrelative:repositories\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D18F149-D805-4F56-B3B6-ED945571DE1B}|Repositories\\App.Repositories.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\repositories\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D18F149-D805-4F56-B3B6-ED945571DE1B}|Repositories\\App.Repositories.csproj|solutionrelative:repositories\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +34,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ConnectionStringOption.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Repositories\\ConnectionStringOption.cs",
+              "RelativeDocumentMoniker": "Repositories\\ConnectionStringOption.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Repositories\\ConnectionStringOption.cs",
+              "RelativeToolTip": "Repositories\\ConnectionStringOption.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T12:36:42.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.API\\Program.cs",
+              "RelativeDocumentMoniker": "App.API\\Program.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.API\\Program.cs",
+              "RelativeToolTip": "App.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T12:31:07.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "App.API\\appsettings.Development.json",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.API\\appsettings.Development.json",
+              "RelativeToolTip": "App.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-09T12:27:00.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Repositories\\Product.cs",
               "RelativeDocumentMoniker": "Repositories\\Product.cs",
@@ -34,12 +85,11 @@
               "RelativeToolTip": "Repositories\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T22:03:15.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T22:03:15.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProductConfiguration.cs",
               "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Repositories\\ProductConfiguration.cs",
               "RelativeDocumentMoniker": "Repositories\\ProductConfiguration.cs",
@@ -52,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Repositories\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Repositories\\AppDbContext.cs",
