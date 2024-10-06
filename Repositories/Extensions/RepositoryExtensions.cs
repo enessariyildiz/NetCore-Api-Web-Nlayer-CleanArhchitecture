@@ -8,7 +8,6 @@ namespace App.Repositories.Extensions
     public static class RepositoryExtensions
     {
         // Extensions must be static.
-
         public static IServiceCollection AddRepositories(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<AppDbContext>(options =>
@@ -22,7 +21,8 @@ namespace App.Repositories.Extensions
             });
 
             services.AddScoped<IProductRepository, ProductRepository>();
-            services.AddScoped(typeof(IGenericRepository<>),typeof(GenericRepository<>));
+            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             return services;
         }
