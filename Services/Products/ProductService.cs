@@ -26,6 +26,15 @@ namespace App.Services.Products
             return ServiceResult<List<ProductDto>>.Success(productsAsDto);
         }
 
+        public async Task<ServiceResult<List<ProductDto>>> GetPagedAllListAsync(int pageNumber, int pageSize)
+        {
+            var products = await productRepository.GetAll().Skip((pageNumber - 1) * pageSize).Take(pageSize).ToListAsync();
+
+            var productsAsDto = products.Select(p => new ProductDto(p.Id, p.Name, p.Price, p.Stock)).ToList();
+
+            return ServiceResult<List<ProductDto>>.Success(productsAsDto);
+        }
+
         public async Task<ServiceResult<ProductDto?>> GetByIdAsync(int id)
         {
             var product = await productRepository.GetByIdAsync(id);
@@ -61,7 +70,7 @@ namespace App.Services.Products
 
             var product = await productRepository.GetByIdAsync(id);
 
-            if(product is null)
+            if (product is null)
             {
                 return ServiceResult.Fail("Product not found", System.Net.HttpStatusCode.NotFound);
             }
@@ -73,7 +82,7 @@ namespace App.Services.Products
             productRepository.Update(product);
             await unitOfWork.SaveChangesAsync();
 
-            return ServiceResult.Success();
+            return ServiceResult.Success(System.Net.HttpStatusCode.NoContent);
         }
 
         public async Task<ServiceResult> DeleteAsync(int id)
@@ -87,7 +96,7 @@ namespace App.Services.Products
 
             productRepository.Delete(product);
             await unitOfWork.SaveChangesAsync();
-            return ServiceResult.Success();
+            return ServiceResult.Success(System.Net.HttpStatusCode.NoContent);
         }
     }
 }

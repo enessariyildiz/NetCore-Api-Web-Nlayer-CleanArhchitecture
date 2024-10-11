@@ -56,7 +56,6 @@ D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.API\obj\Debug\
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.API\obj\Debug\net8.0\App.API.AssemblyInfoInputs.cache
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.API\obj\Debug\net8.0\App.API.AssemblyInfo.cs
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.API\obj\Debug\net8.0\App.API.csproj.CoreCompileInputs.cache
-D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.API\obj\Debug\net8.0\App.API.MvcApplicationPartsAssemblyInfo.cs
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.API\obj\Debug\net8.0\App.API.MvcApplicationPartsAssemblyInfo.cache
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.API\obj\Debug\net8.0\App.API.sourcelink.json
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.API\obj\Debug\net8.0\staticwebassets.build.json
