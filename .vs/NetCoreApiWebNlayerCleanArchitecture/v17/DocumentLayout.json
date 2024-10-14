@@ -42,8 +42,7 @@
               "RelativeToolTip": "Services\\Products\\IProductService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:56:23.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T19:56:23.956Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "App.API\\Controllers\\ProductsController.cs",
               "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.API\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "App.API\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAIAzwBgAAAAUAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAEwBkAAACfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T19:06:49.743Z",
               "EditorCaption": ""
@@ -68,8 +67,7 @@
               "RelativeToolTip": "App.API\\Controllers\\CustomBaseController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T19:01:57.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T19:01:57.563Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "Services\\Products\\ProductService.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAiwFcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T18:54:07.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T18:54:07.508Z"
             }
           ]
         }
