@@ -7,7 +7,6 @@ namespace App.Services.Products
         public CreateProductRequestValidator()
         {
             RuleFor(x => x.Name)
-                .NotNull().WithMessage("Ürün ismi gereklidir")
                 .NotEmpty().WithMessage("Ürün ismi gereklidir")
                 .Length(3, 10).WithMessage("Ürün ismi 3 ile 10 karakter arasında olmalıdır");
 
