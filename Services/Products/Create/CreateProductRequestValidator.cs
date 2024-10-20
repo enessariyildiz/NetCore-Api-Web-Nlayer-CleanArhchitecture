@@ -1,9 +1,9 @@
 ﻿using App.Repositories.Products;
 using FluentValidation;
 
-namespace App.Services.Products
+namespace App.Services.Products.Create
 {
-    public class CreateProductRequestValidator :AbstractValidator<CreateProductRequest>
+    public class CreateProductRequestValidator : AbstractValidator<CreateProductRequest>
     {
         private readonly IProductRepository _repository;
 
@@ -17,7 +17,7 @@ namespace App.Services.Products
             RuleFor(x => x.Name)
                 .NotEmpty().WithMessage("Ürün ismi gereklidir")
                 .Length(3, 10).WithMessage("Ürün ismi 3 ile 10 karakter arasında olmalıdır");
-                //.Must(MustUniqeProductName).WithMessage("Ürün ismi veritabanında bulunmaktadır");
+            //.Must(MustUniqeProductName).WithMessage("Ürün ismi veritabanında bulunmaktadır");
 
             // Price Validation
             RuleFor(x => x.Price)

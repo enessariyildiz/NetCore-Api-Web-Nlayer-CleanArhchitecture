@@ -143,3 +143,4 @@ D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.API\bin\Debug\
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.API\obj\Debug\net8.0\App.API.MvcApplicationPartsAssemblyInfo.cs
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.API\bin\Debug\net8.0\AutoMapper.dll
