@@ -3,15 +3,16 @@ using App.Repositories.Products;
 using App.Services.ExceptionHandlers;
 using App.Services.Products.Create;
 using App.Services.Products.Update;
+using App.Services.Products.UpdateStock;
 using AutoMapper;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
 namespace App.Services.Products
 {
-    public class ProductService(IProductRepository productRepository, 
-        IUnitOfWork unitOfWork, 
-        IValidator<CreateProductRequest> createProductRequestValidator, 
+    public class ProductService(IProductRepository productRepository,
+        IUnitOfWork unitOfWork,
+        IValidator<CreateProductRequest> createProductRequestValidator,
         IMapper mapper) : IProductService
     {
         public async Task<ServiceResult<List<ProductDto>>> GetTopPriceProductsAsync(int count)
@@ -83,7 +84,7 @@ namespace App.Services.Products
 
             await productRepository.AddAsync(product);
             await unitOfWork.SaveChangesAsync();
-            return ServiceResult<CreateProductResponse>.SuccessAsCreated(new CreateProductResponse(product.Id),$"api/products/{product.Id}");
+            return ServiceResult<CreateProductResponse>.SuccessAsCreated(new CreateProductResponse(product.Id), $"api/products/{product.Id}");
         }
 
         public async Task<ServiceResult> UpdateAsync(int id, UpdateProductRequest request)
@@ -96,6 +97,13 @@ namespace App.Services.Products
             if (product is null)
             {
                 return ServiceResult.Fail("Product not found", System.Net.HttpStatusCode.NotFound);
+            }
+
+            var isProductNameExist = await productRepository.Where(x => x.Name == request.Name && x.Id != product.Id).AnyAsync();
+
+            if (isProductNameExist)
+            {
+                return ServiceResult.Fail("Ürün ismi veritabanında bulunmaktadır", System.Net.HttpStatusCode.BadRequest);
             }
 
             product.Name = request.Name;
