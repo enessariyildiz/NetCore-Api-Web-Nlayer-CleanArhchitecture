@@ -5,6 +5,7 @@ using App.Services.Products.Create;
 using App.Services.Products.Update;
 using App.Services.Products.UpdateStock;
 using AutoMapper;
+using Azure.Core;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,7 +20,9 @@ namespace App.Services.Products
         {
             var products = await productRepository.GetTopPriceProductAsync(count);
 
-            var productAsDto = products.Select(p => new ProductDto(p.Id, p.Name, p.Price, p.Stock)).ToList();
+            //var productAsDto = products.Select(p => new ProductDto(p.Id, p.Name, p.Price, p.Stock)).ToList();
+
+            var productAsDto = mapper.Map<List<ProductDto>>(products);
 
             return new ServiceResult<List<ProductDto>>()
             {
@@ -75,12 +78,7 @@ namespace App.Services.Products
             }
 
 
-            var product = new Product()
-            {
-                Name = request.Name,
-                Price = request.Price,
-                Stock = request.Stock
-            };
+            var product = mapper.Map<Product>(request);
 
             await productRepository.AddAsync(product);
             await unitOfWork.SaveChangesAsync();
@@ -106,9 +104,11 @@ namespace App.Services.Products
                 return ServiceResult.Fail("Ürün ismi veritabanında bulunmaktadır", System.Net.HttpStatusCode.BadRequest);
             }
 
-            product.Name = request.Name;
-            product.Price = request.Price;
-            product.Stock = request.Stock;
+            //product.Name = request.Name;
+            //product.Price = request.Price;
+            //product.Stock = request.Stock;
+
+            product = mapper.Map(request,product);
 
             productRepository.Update(product);
             await unitOfWork.SaveChangesAsync();
