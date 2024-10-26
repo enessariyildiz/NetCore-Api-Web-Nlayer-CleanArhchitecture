@@ -4,6 +4,6 @@
     {
         Task<Category?> GetCategoryWithProductAsync(int id);
 
-        IQueryable<Category?> GetCategoryByProductsAsync(int id);
+        IQueryable<Category?> GetCategoryWithProducts();
     }
 }
