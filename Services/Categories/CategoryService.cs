@@ -2,6 +2,7 @@
 using App.Repositories.Categories;
 using App.Repositories.Products;
 using App.Services.Categories.Create;
+using App.Services.Categories.Dto;
 using App.Services.Categories.Update;
 using App.Services.Products.Create;
 using AutoMapper;
@@ -56,21 +57,21 @@ namespace App.Services.Categories
             return ServiceResult<CategoryDto>.Success(categoryAsDto);
         }
 
-        public async Task<ServiceResult<int>> CreateAsync(CreateCategoryRequest requst)
+        public async Task<ServiceResult<int>> CreateAsync(CreateCategoryRequest request)
         {
-            var anyCategory = await categoryRepository.Where(x => x.Name == requst.Name).AnyAsync();
+            var anyCategory = await categoryRepository.Where(x => x.Name == request.Name).AnyAsync();
 
             if (anyCategory)
             {
                 return ServiceResult<int>.Fail("Kategori ismi veritabanında bulunamadı", System.Net.HttpStatusCode.BadRequest);
             }
 
-            var newCategory = new Category { Name = requst.Name };
+            var newCategory = mapper.Map<Category>(request);
 
             await categoryRepository.AddAsync(newCategory);
             await unitOfWork.SaveChangesAsync();
 
-            return ServiceResult<int>.Success(newCategory.Id);
+            return ServiceResult<int>.SuccessAsCreated(newCategory.Id, $"api/categories/{newCategory.Id}");
         }
 
         public async Task<ServiceResult> UpdateAsync(int Id, UpdateCategoryRequest request)

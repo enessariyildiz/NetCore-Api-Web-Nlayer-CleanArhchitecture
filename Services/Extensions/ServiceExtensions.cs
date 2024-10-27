@@ -1,13 +1,11 @@
-﻿using App.Repositories.Products;
-using App.Repositories;
+﻿using App.Services.Categories;
+using App.Services.ExceptionHandlers;
+using App.Services.Products;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using App.Services.Products;
-using FluentValidation.AspNetCore;
-using FluentValidation;
 using System.Reflection;
-using App.Services.ExceptionHandlers;
-using System.Reflection.Metadata;
 
 namespace App.Services.Extensions
 {
@@ -27,6 +25,8 @@ namespace App.Services.Extensions
 
             services.AddExceptionHandler<CriticalExceptionHandler>();
             services.AddExceptionHandler<GlobalExceptionHandler>();
+
+            services.AddScoped<ICategoryService, CategoryService>();
 
             return services;
         }
