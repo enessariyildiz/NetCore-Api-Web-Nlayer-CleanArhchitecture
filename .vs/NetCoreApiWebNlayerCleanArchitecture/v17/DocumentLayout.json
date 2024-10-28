@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EDC9C30D-60EC-4B8C-859B-40780AE70379}|Services\\App.Services.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC9C30D-60EC-4B8C-859B-40780AE70379}|Services\\App.Services.csproj|solutionrelative:services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC9C30D-60EC-4B8C-859B-40780AE70379}|Services\\App.Services.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\services\\products\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC9C30D-60EC-4B8C-859B-40780AE70379}|Services\\App.Services.csproj|solutionrelative:services\\products\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC9C30D-60EC-4B8C-859B-40780AE70379}|Services\\App.Services.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\services\\products\\update\\updateproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC9C30D-60EC-4B8C-859B-40780AE70379}|Services\\App.Services.csproj|solutionrelative:services\\products\\update\\updateproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC9C30D-60EC-4B8C-859B-40780AE70379}|Services\\App.Services.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\services\\products\\update\\updateproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC9C30D-60EC-4B8C-859B-40780AE70379}|Services\\App.Services.csproj|solutionrelative:services\\products\\update\\updateproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC9C30D-60EC-4B8C-859B-40780AE70379}|Services\\App.Services.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\services\\products\\create\\createproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC9C30D-60EC-4B8C-859B-40780AE70379}|Services\\App.Services.csproj|solutionrelative:services\\products\\create\\createproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC9C30D-60EC-4B8C-859B-40780AE70379}|Services\\App.Services.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\services\\products\\create\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC9C30D-60EC-4B8C-859B-40780AE70379}|Services\\App.Services.csproj|solutionrelative:services\\products\\create\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EDC9C30D-60EC-4B8C-859B-40780AE70379}|Services\\App.Services.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\services\\categories\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDC9C30D-60EC-4B8C-859B-40780AE70379}|Services\\App.Services.csproj|solutionrelative:services\\categories\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,24 +42,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Services\\Products\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Services\\Products\\ProductDto.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Services\\Products\\ProductDto.cs",
+              "RelativeToolTip": "Services\\Products\\ProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:55:33.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Services\\Products\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\Products\\ProductService.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Services\\Products\\ProductService.cs",
+              "RelativeToolTip": "Services\\Products\\ProductService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:55:07.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateProductRequest.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Services\\Products\\Update\\UpdateProductRequest.cs",
+              "RelativeDocumentMoniker": "Services\\Products\\Update\\UpdateProductRequest.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Services\\Products\\Update\\UpdateProductRequest.cs",
+              "RelativeToolTip": "Services\\Products\\Update\\UpdateProductRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:54:37.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateProductRequestValidator.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Services\\Products\\Update\\UpdateProductRequestValidator.cs",
+              "RelativeDocumentMoniker": "Services\\Products\\Update\\UpdateProductRequestValidator.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Services\\Products\\Update\\UpdateProductRequestValidator.cs",
+              "RelativeToolTip": "Services\\Products\\Update\\UpdateProductRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:54:31.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateProductRequestValidator.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Services\\Products\\Create\\CreateProductRequestValidator.cs",
+              "RelativeDocumentMoniker": "Services\\Products\\Create\\CreateProductRequestValidator.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Services\\Products\\Create\\CreateProductRequestValidator.cs",
+              "RelativeToolTip": "Services\\Products\\Create\\CreateProductRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:53:30.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateProductRequest.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Services\\Products\\Create\\CreateProductRequest.cs",
+              "RelativeDocumentMoniker": "Services\\Products\\Create\\CreateProductRequest.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Services\\Products\\Create\\CreateProductRequest.cs",
+              "RelativeToolTip": "Services\\Products\\Create\\CreateProductRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:53:07.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Services\\Categories\\CategoryService.cs",
               "RelativeDocumentMoniker": "Services\\Categories\\CategoryService.cs",
               "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\Services\\Categories\\CategoryService.cs",
               "RelativeToolTip": "Services\\Categories\\CategoryService.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAYwEQAAAA8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T19:00:15.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.API\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "App.API\\Controllers\\CategoriesController.cs",
@@ -43,8 +145,7 @@
               "RelativeToolTip": "App.API\\Controllers\\CategoriesController.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAA2wBoAAAClAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T18:48:00.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T18:48:00.25Z"
             }
           ]
         }
