@@ -9,15 +9,10 @@ namespace App.Services.Filters
 
         public async Task OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
         {
-            var idValue = context.ActionArguments.Values.FirstOrDefault();
+            var idValue = context.ActionArguments.TryGetValue("id", out var idAsObject) ? idAsObject : null;
 
-            if (idValue == null)
-            {
-                await next();
-                return;
-            }
 
-            if (idValue is not TId id)
+            if (idAsObject is null || idAsObject is not TId id)
             {
                 await next();
                 return;
@@ -28,7 +23,7 @@ namespace App.Services.Filters
             if (!anyEntity)
             {
                 var entityName = typeof(T).Name;
-                var actionName = context.ActionDescriptor.DisplayName;
+                var actionName = context.ActionDescriptor.RouteValues["action"];
 
                 var result = ServiceResult.Fail($"Data bulunamamıştır.({entityName})({actionName})");
                 context.Result = new NotFoundObjectResult(result);
