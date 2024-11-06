@@ -90,25 +90,14 @@ namespace App.Services.Products
             // Fast fail
             // Guard clauses
 
-            var product = await productRepository.GetByIdAsync(id);
-
-            if (product is null)
-            {
-                return ServiceResult.Fail("Product not found", System.Net.HttpStatusCode.NotFound);
-            }
-
-            var isProductNameExist = await productRepository.Where(x => x.Name == request.Name && x.Id != product.Id).AnyAsync();
+            var isProductNameExist = await productRepository.Where(x => x.Name == request.Name && x.Id != id).AnyAsync();
 
             if (isProductNameExist)
             {
                 return ServiceResult.Fail("Ürün ismi veritabanında bulunmaktadır", System.Net.HttpStatusCode.BadRequest);
             }
 
-            //product.Name = request.Name;
-            //product.Price = request.Price;
-            //product.Stock = request.Stock;
-
-            product = mapper.Map(request,product);
+            var product = mapper.Map<Product>(request);
 
             productRepository.Update(product);
             await unitOfWork.SaveChangesAsync();
@@ -136,11 +125,6 @@ namespace App.Services.Products
         public async Task<ServiceResult> DeleteAsync(int id)
         {
             var product = await productRepository.GetByIdAsync(id);
-
-            if (product is null)
-            {
-                return ServiceResult.Fail("Product not found", System.Net.HttpStatusCode.NotFound);
-            }
 
             productRepository.Delete(product);
             await unitOfWork.SaveChangesAsync();
