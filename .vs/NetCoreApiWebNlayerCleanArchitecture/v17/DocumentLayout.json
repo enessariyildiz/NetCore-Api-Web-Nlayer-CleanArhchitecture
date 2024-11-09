@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4455C2FA-FBF2-4754-A8F5-B391DE8417A3}|App.Domain\\App.Domain.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\app.domain\\options\\connectionstringoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4455C2FA-FBF2-4754-A8F5-B391DE8417A3}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\options\\connectionstringoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09E7DAAF-132F-4173-AC60-C5E6E157A9D4}|App.Application\\App.Application.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\app.application\\features\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E7DAAF-132F-4173-AC60-C5E6E157A9D4}|App.Application\\App.Application.csproj|solutionrelative:app.application\\features\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4455C2FA-FBF2-4754-A8F5-B391DE8417A3}|App.Domain\\App.Domain.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\app.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4455C2FA-FBF2-4754-A8F5-B391DE8417A3}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4455C2FA-FBF2-4754-A8F5-B391DE8417A3}|App.Domain\\App.Domain.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\app.domain\\entities\\common\\iauditentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4455C2FA-FBF2-4754-A8F5-B391DE8417A3}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\common\\iauditentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4455C2FA-FBF2-4754-A8F5-B391DE8417A3}|App.Domain\\App.Domain.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\app.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4455C2FA-FBF2-4754-A8F5-B391DE8417A3}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4455C2FA-FBF2-4754-A8F5-B391DE8417A3}|App.Domain\\App.Domain.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\app.domain\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4455C2FA-FBF2-4754-A8F5-B391DE8417A3}|App.Domain\\App.Domain.csproj|solutionrelative:app.domain\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09E7DAAF-132F-4173-AC60-C5E6E157A9D4}|App.Application\\App.Application.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\app.application\\applicationassembly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E7DAAF-132F-4173-AC60-C5E6E157A9D4}|App.Application\\App.Application.csproj|solutionrelative:app.application\\applicationassembly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ConnectionStringOption.cs",
-              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Domain\\Options\\ConnectionStringOption.cs",
-              "RelativeDocumentMoniker": "App.Domain\\Options\\ConnectionStringOption.cs",
-              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Domain\\Options\\ConnectionStringOption.cs",
-              "RelativeToolTip": "App.Domain\\Options\\ConnectionStringOption.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Application\\Features\\Products\\ProductService.cs",
+              "RelativeDocumentMoniker": "App.Application\\Features\\Products\\ProductService.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Application\\Features\\Products\\ProductService.cs",
+              "RelativeToolTip": "App.Application\\Features\\Products\\ProductService.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwEQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T18:43:49.165Z",
+              "WhenOpened": "2024-11-09T11:22:20.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "App.Domain\\Entities\\Product.cs",
-              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "App.Domain\\Entities\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Title": "ApplicationAssembly.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Application\\ApplicationAssembly.cs",
+              "RelativeDocumentMoniker": "App.Application\\ApplicationAssembly.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Application\\ApplicationAssembly.cs",
+              "RelativeToolTip": "App.Application\\ApplicationAssembly.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T18:42:39.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "App.Domain\\Entities\\Category.cs",
-              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "App.Domain\\Entities\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T18:42:31.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IAuditEntity.cs",
-              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Domain\\Entities\\Common\\IAuditEntity.cs",
-              "RelativeDocumentMoniker": "App.Domain\\Entities\\Common\\IAuditEntity.cs",
-              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Domain\\Entities\\Common\\IAuditEntity.cs",
-              "RelativeToolTip": "App.Domain\\Entities\\Common\\IAuditEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T18:41:06.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Domain\\Entities\\Common\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "App.Domain\\Entities\\Common\\BaseEntity.cs",
-              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Domain\\Entities\\Common\\BaseEntity.cs",
-              "RelativeToolTip": "App.Domain\\Entities\\Common\\BaseEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T18:40:56.214Z",
+              "WhenOpened": "2024-11-09T11:20:56.936Z",
               "EditorCaption": ""
             }
           ]

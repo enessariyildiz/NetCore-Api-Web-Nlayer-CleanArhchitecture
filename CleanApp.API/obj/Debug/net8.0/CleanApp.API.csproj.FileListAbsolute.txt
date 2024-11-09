@@ -14,7 +14,6 @@ D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\obj\D
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\obj\Debug\net8.0\CleanApp.API.AssemblyInfoInputs.cache
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\obj\Debug\net8.0\CleanApp.API.AssemblyInfo.cs
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\obj\Debug\net8.0\CleanApp.API.csproj.CoreCompileInputs.cache
-D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\obj\Debug\net8.0\CleanApp.API.MvcApplicationPartsAssemblyInfo.cs
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\obj\Debug\net8.0\CleanApp.API.MvcApplicationPartsAssemblyInfo.cache
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\obj\Debug\net8.0\CleanApp.API.sourcelink.json
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\obj\Debug\net8.0\staticwebassets.build.json
@@ -31,3 +30,12 @@ D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\obj\D
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\obj\Debug\net8.0\CleanApp.API.pdb
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\obj\Debug\net8.0\CleanApp.API.genruntimeconfig.cache
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\obj\Debug\net8.0\ref\CleanApp.API.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\bin\Debug\net8.0\FluentValidation.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\bin\Debug\net8.0\App.Application.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\bin\Debug\net8.0\App.Domain.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\bin\Debug\net8.0\App.Persistence.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\bin\Debug\net8.0\App.Application.pdb
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\bin\Debug\net8.0\App.Persistence.pdb
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\bin\Debug\net8.0\App.Domain.pdb

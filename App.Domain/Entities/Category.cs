@@ -1,4 +1,6 @@
-﻿namespace App.Domain.Entities
+﻿using App.Domain.Entities.Common;
+
+namespace App.Domain.Entities
 {
     public class Category : BaseEntity<int>, IAuditEntity
     {
