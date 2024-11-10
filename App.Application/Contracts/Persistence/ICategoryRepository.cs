@@ -6,6 +6,6 @@ namespace App.Application.Contracts.Persistence
     {
         Task<Category?> GetCategoryWithProductAsync(int id);
 
-        IQueryable<Category?> GetCategoryWithProducts();
+        Task<List<Category?>> GetCategoryWithProductsAsync();
     }
 }

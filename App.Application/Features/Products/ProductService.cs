@@ -32,7 +32,7 @@ namespace App.Services.Products
 
         public async Task<ServiceResult<List<ProductDto>>> GetAllListAsync()
         {
-            var products = await productRepository.GetAll().ToListAsync();
+            var products = await productRepository.GetAllAsync();
             //var productsAsDto = products.Select(p => new ProductDto(p.Id, p.Name, p.Price, p.Stock)).ToList();
             var productsAsDto = mapper.Map<List<ProductDto>>(products);
             return ServiceResult<List<ProductDto>>.Success(productsAsDto);
@@ -40,7 +40,7 @@ namespace App.Services.Products
 
         public async Task<ServiceResult<List<ProductDto>>> GetPagedAllListAsync(int pageNumber, int pageSize)
         {
-            var products = await productRepository.GetAll().Skip((pageNumber - 1) * pageSize).Take(pageSize).ToListAsync();
+            var products = await productRepository.GetAllPagedAsync(pageNumber, pageSize);
             //var productsAsDto = products.Select(p => new ProductDto(p.Id, p.Name, p.Price, p.Stock)).ToList();
             var productsAsDto = mapper.Map<List<ProductDto>>(products);
             return ServiceResult<List<ProductDto>>.Success(productsAsDto);
@@ -64,13 +64,10 @@ namespace App.Services.Products
 
         public async Task<ServiceResult<CreateProductResponse>> CreateAsync(CreateProductRequest request)
         {
-
             //throw new CriticalException("Kritik seviye bir hata meydana geldi");
 
-            throw new CriticalException("Kritik seviye bir hata meydana geldi");
 
-
-            var anyProduct = await productRepository.Where(x => x.Name == request.Name).AnyAsync();
+            var anyProduct = await productRepository.AnyAsync(x => x.Name == request.Name);
 
             if (anyProduct)
             {
@@ -90,7 +87,7 @@ namespace App.Services.Products
             // Fast fail
             // Guard clauses
 
-            var isProductNameExist = await productRepository.Where(x => x.Name == request.Name && x.Id != id).AnyAsync();
+            var isProductNameExist = await productRepository.AnyAsync(x => x.Name == request.Name && x.Id != id);
 
             if (isProductNameExist)
             {

@@ -39,3 +39,5 @@ D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\bin\D
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\bin\Debug\net8.0\App.Application.pdb
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\bin\Debug\net8.0\App.Persistence.pdb
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\bin\Debug\net8.0\App.Domain.pdb
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\bin\Debug\net8.0\AutoMapper.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\CleanApp.API\obj\Debug\net8.0\CleanApp.API.MvcApplicationPartsAssemblyInfo.cs
