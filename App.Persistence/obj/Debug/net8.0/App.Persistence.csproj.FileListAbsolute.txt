@@ -16,3 +16,5 @@ D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Persistence\ob
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Persistence\obj\Debug\net8.0\refint\App.Persistence.dll
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Persistence\obj\Debug\net8.0\App.Persistence.pdb
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Persistence\obj\Debug\net8.0\ref\App.Persistence.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Persistence\bin\Debug\net8.0\App.Persistence.runtimeconfig.json
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Persistence\obj\Debug\net8.0\App.Persistence.genruntimeconfig.cache
