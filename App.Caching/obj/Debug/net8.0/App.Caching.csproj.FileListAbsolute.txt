@@ -1,0 +1,12 @@
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\bin\Debug\net8.0\App.Caching.deps.json
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\bin\Debug\net8.0\App.Caching.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\bin\Debug\net8.0\App.Caching.pdb
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\obj\Debug\net8.0\App.Caching.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\obj\Debug\net8.0\App.Caching.AssemblyInfoInputs.cache
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\obj\Debug\net8.0\App.Caching.AssemblyInfo.cs
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\obj\Debug\net8.0\App.Caching.csproj.CoreCompileInputs.cache
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\obj\Debug\net8.0\App.Caching.sourcelink.json
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\obj\Debug\net8.0\App.Caching.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\obj\Debug\net8.0\refint\App.Caching.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\obj\Debug\net8.0\App.Caching.pdb
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\obj\Debug\net8.0\ref\App.Caching.dll

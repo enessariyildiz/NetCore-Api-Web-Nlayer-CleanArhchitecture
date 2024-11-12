@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9C21FEE-6DDE-44D6-BFF5-985E1B4CAF72}|App.Caching\\App.Caching.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\app.caching\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9C21FEE-6DDE-44D6-BFF5-985E1B4CAF72}|App.Caching\\App.Caching.csproj|solutionrelative:app.caching\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E7DAAF-132F-4173-AC60-C5E6E157A9D4}|App.Application\\App.Application.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\app.application\\contracts\\caching\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E7DAAF-132F-4173-AC60-C5E6E157A9D4}|App.Application\\App.Application.csproj|solutionrelative:app.application\\contracts\\caching\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CacheService.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Caching\\CacheService.cs",
+              "RelativeDocumentMoniker": "App.Caching\\CacheService.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Caching\\CacheService.cs",
+              "RelativeToolTip": "App.Caching\\CacheService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T21:35:23.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICacheService.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Application\\Contracts\\Caching\\ICacheService.cs",
+              "RelativeDocumentMoniker": "App.Application\\Contracts\\Caching\\ICacheService.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Application\\Contracts\\Caching\\ICacheService.cs",
+              "RelativeToolTip": "App.Application\\Contracts\\Caching\\ICacheService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T21:29:20.498Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
