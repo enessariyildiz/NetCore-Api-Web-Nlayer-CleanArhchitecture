@@ -1637,6 +1637,23 @@
           }
         }
       },
+      "App.API/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "App.Services": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.4.0"
+        },
+        "compile": {
+          "bin/placeholder/App.API.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.API.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "App.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1651,6 +1668,22 @@
         "runtime": {
           "bin/placeholder/App.Application.dll": {}
         }
+      },
+      "App.Caching/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "App.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/App.Caching.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.Caching.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "App.Domain/1.0.0": {
         "type": "project",
@@ -1676,6 +1709,40 @@
         "runtime": {
           "bin/placeholder/App.Persistence.dll": {}
         }
+      },
+      "App.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
+        },
+        "compile": {
+          "bin/placeholder/App.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.Repositories.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "App.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "App.Repositories": "1.0.0",
+          "AutoMapper": "13.0.1",
+          "FluentValidation.AspNetCore": "11.3.0"
+        },
+        "compile": {
+          "bin/placeholder/App.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.Services.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -4589,10 +4656,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "App.API/1.0.0": {
+      "type": "project",
+      "path": "../App.API/App.API.csproj",
+      "msbuildProject": "../App.API/App.API.csproj"
+    },
     "App.Application/1.0.0": {
       "type": "project",
       "path": "../App.Application/App.Application.csproj",
       "msbuildProject": "../App.Application/App.Application.csproj"
+    },
+    "App.Caching/1.0.0": {
+      "type": "project",
+      "path": "../App.Caching/App.Caching.csproj",
+      "msbuildProject": "../App.Caching/App.Caching.csproj"
     },
     "App.Domain/1.0.0": {
       "type": "project",
@@ -4603,11 +4680,22 @@
       "type": "project",
       "path": "../App.Persistence/App.Persistence.csproj",
       "msbuildProject": "../App.Persistence/App.Persistence.csproj"
+    },
+    "App.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../Repositories/App.Repositories.csproj",
+      "msbuildProject": "../Repositories/App.Repositories.csproj"
+    },
+    "App.Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/App.Services.csproj",
+      "msbuildProject": "../Services/App.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "App.Application >= 1.0.0",
+      "App.API >= 1.0.0",
+      "App.Caching >= 1.0.0",
       "App.Persistence >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
       "Swashbuckle.AspNetCore >= 6.4.0"
@@ -4645,8 +4733,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Application\\App.Application.csproj": {
-              "projectPath": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Application\\App.Application.csproj"
+            "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.API\\App.API.csproj": {
+              "projectPath": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.API\\App.API.csproj"
+            },
+            "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Caching\\App.Caching.csproj": {
+              "projectPath": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Caching\\App.Caching.csproj"
             },
             "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Persistence\\App.Persistence.csproj": {
               "projectPath": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Persistence\\App.Persistence.csproj"

@@ -2,6 +2,8 @@ using App.Services.Filters;
 using App.Persistence.Extensions;
 using App.Application.Extensions;
 using App.Services.ExceptionHandlers;
+using App.Application.Contracts.Caching;
+using App.Caching;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +23,9 @@ builder.Services.AddRepositories(builder.Configuration).AddServices(builder.Conf
 builder.Services.AddScoped(typeof(NotFoundFilter<,>));
 builder.Services.AddExceptionHandler<CriticalExceptionHandler>();
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+
+builder.Services.AddMemoryCache();
+builder.Services.AddSingleton<ICacheService, CacheService>();
 
 var app = builder.Build();
 
