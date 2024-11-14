@@ -1,12 +1,10 @@
-﻿using App.Application;
-using App.Application.Contracts.Persistence;
-using App.Repositories;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace App.Services.Filters
 {
-    public class NotFoundFilter<T, TId>(IGenericRepository<T, TId> genericRepository) : Attribute, IAsyncActionFilter where T : class where TId : struct
+    public class NotFoundFilter<T, TId>(Application.Contracts.Persistence.IGenericRepository<T, TId> genericRepository) : Attribute, IAsyncActionFilter where T : class where TId : struct
     {
 
         public async Task OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)

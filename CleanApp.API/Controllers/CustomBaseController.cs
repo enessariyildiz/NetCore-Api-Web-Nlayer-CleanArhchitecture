@@ -1,7 +1,4 @@
-﻿using App.Application;
-using App.Services;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace CleanApp.API.Controllers
 {
@@ -11,7 +8,7 @@ namespace CleanApp.API.Controllers
     {
 
         [NonAction]
-        public IActionResult CreateActionResult<T>(ServiceResult<T> result)
+        public IActionResult CreateActionResult<T>(App.Application.ServiceResult<T> result)
         {
             if (result.Status == System.Net.HttpStatusCode.NoContent)
             {
@@ -27,7 +24,7 @@ namespace CleanApp.API.Controllers
         }
 
         [NonAction]
-        public IActionResult CreateActionResult(ServiceResult result)
+        public IActionResult CreateActionResult(App.Application.ServiceResult result)
         {
             if (result.Status == System.Net.HttpStatusCode.NoContent)
             {

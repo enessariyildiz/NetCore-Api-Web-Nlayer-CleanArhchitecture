@@ -10,3 +10,9 @@ D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\obj\De
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\obj\Debug\net8.0\refint\App.Caching.dll
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\obj\Debug\net8.0\App.Caching.pdb
 D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\obj\Debug\net8.0\ref\App.Caching.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\bin\Debug\net8.0\App.Application.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\bin\Debug\net8.0\App.Domain.dll
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\bin\Debug\net8.0\App.Application.pdb
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\bin\Debug\net8.0\App.Domain.pdb
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\obj\Debug\net8.0\App.Caching.csproj.AssemblyReference.cache
+D:\Dev\Software\Projects\NetCoreApiWebNlayerCleanArchitecture\App.Caching\obj\Debug\net8.0\App.Cach.2ABDD3B0.Up2Date

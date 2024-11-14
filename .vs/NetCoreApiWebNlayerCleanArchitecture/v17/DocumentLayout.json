@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55B68415-3F01-4999-B0ED-5BB856ABACDB}|CleanApp.API\\CleanApp.API.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\cleanapp.api\\filters\\notfoundfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B68415-3F01-4999-B0ED-5BB856ABACDB}|CleanApp.API\\CleanApp.API.csproj|solutionrelative:cleanapp.api\\filters\\notfoundfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B68415-3F01-4999-B0ED-5BB856ABACDB}|CleanApp.API\\CleanApp.API.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\cleanapp.api\\controllers\\custombasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B68415-3F01-4999-B0ED-5BB856ABACDB}|CleanApp.API\\CleanApp.API.csproj|solutionrelative:cleanapp.api\\controllers\\custombasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotFoundFilter.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\CleanApp.API\\Filters\\NotFoundFilter.cs",
+              "RelativeDocumentMoniker": "CleanApp.API\\Filters\\NotFoundFilter.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\CleanApp.API\\Filters\\NotFoundFilter.cs",
+              "RelativeToolTip": "CleanApp.API\\Filters\\NotFoundFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBoAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T21:39:01.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomBaseController.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\CleanApp.API\\Controllers\\CustomBaseController.cs",
+              "RelativeDocumentMoniker": "CleanApp.API\\Controllers\\CustomBaseController.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\CleanApp.API\\Controllers\\CustomBaseController.cs",
+              "RelativeToolTip": "CleanApp.API\\Controllers\\CustomBaseController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIA2wBQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T21:38:42.047Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
