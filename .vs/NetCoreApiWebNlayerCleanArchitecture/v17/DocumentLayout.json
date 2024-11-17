@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55B68415-3F01-4999-B0ED-5BB856ABACDB}|CleanApp.API\\CleanApp.API.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\cleanapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B68415-3F01-4999-B0ED-5BB856ABACDB}|CleanApp.API\\CleanApp.API.csproj|solutionrelative:cleanapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55B68415-3F01-4999-B0ED-5BB856ABACDB}|CleanApp.API\\CleanApp.API.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\cleanapp.api\\filters\\notfoundfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55B68415-3F01-4999-B0ED-5BB856ABACDB}|CleanApp.API\\CleanApp.API.csproj|solutionrelative:cleanapp.api\\filters\\notfoundfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ECD1C50-C019-4188-8819-9B3AAA2EEB61}|App.Bus\\App.Bus.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\app.bus\\busextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ECD1C50-C019-4188-8819-9B3AAA2EEB61}|App.Bus\\App.Bus.csproj|solutionrelative:app.bus\\busextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7ECD1C50-C019-4188-8819-9B3AAA2EEB61}|App.Bus\\App.Bus.csproj|d:\\dev\\software\\projects\\netcoreapiwebnlayercleanarchitecture\\app.bus\\servicebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ECD1C50-C019-4188-8819-9B3AAA2EEB61}|App.Bus\\App.Bus.csproj|solutionrelative:app.bus\\servicebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,11 +50,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\CleanApp.API\\Program.cs",
+              "RelativeDocumentMoniker": "CleanApp.API\\Program.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\CleanApp.API\\Program.cs",
+              "RelativeToolTip": "CleanApp.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAB6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T20:12:24.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotFoundFilter.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\CleanApp.API\\Filters\\NotFoundFilter.cs",
+              "RelativeDocumentMoniker": "CleanApp.API\\Filters\\NotFoundFilter.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\CleanApp.API\\Filters\\NotFoundFilter.cs",
+              "RelativeToolTip": "CleanApp.API\\Filters\\NotFoundFilter.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAiwB0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T20:12:16.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "BusExtensions.cs",
+              "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Bus\\BusExtensions.cs",
+              "RelativeDocumentMoniker": "App.Bus\\BusExtensions.cs",
+              "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Bus\\BusExtensions.cs",
+              "RelativeToolTip": "App.Bus\\BusExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T20:03:34.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "IEvent.cs",
               "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Domain\\Events\\IEvent.cs",
               "RelativeDocumentMoniker": "App.Domain\\Events\\IEvent.cs",
@@ -50,12 +101,11 @@
               "RelativeToolTip": "App.Domain\\Events\\IEvent.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T19:37:55.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T19:37:55.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "IMessage.cs",
               "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Domain\\Events\\IMessage.cs",
               "RelativeDocumentMoniker": "App.Domain\\Events\\IMessage.cs",
@@ -63,25 +113,24 @@
               "RelativeToolTip": "App.Domain\\Events\\IMessage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T19:33:17.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T19:33:17.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ServiceBus.cs",
               "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Bus\\ServiceBus.cs",
               "RelativeDocumentMoniker": "App.Bus\\ServiceBus.cs",
               "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Bus\\ServiceBus.cs",
               "RelativeToolTip": "App.Bus\\ServiceBus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBQAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T19:30:48.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "RepositoryExtensions.cs",
               "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Persistence\\Extensions\\RepositoryExtensions.cs",
               "RelativeDocumentMoniker": "App.Persistence\\Extensions\\RepositoryExtensions.cs",
@@ -89,12 +138,11 @@
               "RelativeToolTip": "App.Persistence\\Extensions\\RepositoryExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T19:28:06.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T19:28:06.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ServiceBusOptions.cs",
               "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Domain\\Options\\ServiceBusOptions.cs",
               "RelativeDocumentMoniker": "App.Domain\\Options\\ServiceBusOptions.cs",
@@ -102,12 +150,11 @@
               "RelativeToolTip": "App.Domain\\Options\\ServiceBusOptions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T19:26:14.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T19:26:14.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ProductAddedEvent.cs",
               "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Domain\\Events\\ProductAddedEvent.cs",
               "RelativeDocumentMoniker": "App.Domain\\Events\\ProductAddedEvent.cs",
@@ -115,18 +162,17 @@
               "RelativeToolTip": "App.Domain\\Events\\ProductAddedEvent.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T19:08:48.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T19:08:48.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "IServiceBus.cs",
               "DocumentMoniker": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Application\\Contracts\\ServiceBus\\IServiceBus.cs",
               "RelativeDocumentMoniker": "App.Application\\Contracts\\ServiceBus\\IServiceBus.cs",
               "ToolTip": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.Application\\Contracts\\ServiceBus\\IServiceBus.cs",
               "RelativeToolTip": "App.Application\\Contracts\\ServiceBus\\IServiceBus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T19:07:17.217Z",
               "EditorCaption": ""

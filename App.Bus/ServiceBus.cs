@@ -1,18 +1,24 @@
 ﻿using App.Application.Contracts.ServiceBus;
 using App.Domain.Events;
+using MassTransit;
+using MassTransit.Transports;
 
 namespace App.Bus
 {
-    public class ServiceBus : IServiceBus
+    public class ServiceBus(IPublishEndpoint publishEndpoint, ISendEndpointProvider sendEndpointProvider) : IServiceBus
     {
-        public Task PublishAsync<T>(T message, CancellationToken cancellation = default) where T : IMessage, IEvent
+        public async Task PublishAsync<T>(T @event, CancellationToken cancellation = default) where T : IMessage, IEvent
         {
-            throw new NotImplementedException();
+            await publishEndpoint.Publish(@event, cancellation);
         }
 
-        public Task SendAsync<T>(T message, CancellationToken cancellation = default) where T : IMessage, IEvent
+        public async Task SendAsync<T>(T message, string queueName, CancellationToken cancellation = default) where T : IMessage, IEvent
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+
+            var endpoint = await sendEndpointProvider.GetSendEndpoint(new Uri($"queue:{queueName}"));
+
+            await endpoint.Send(message, cancellation);
         }
     }
 }

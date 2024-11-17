@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "Kpl2/FwnC+mwTj5xZ0d8hGAqBkec05vN2qQCTb4RVBQ=",
+  "Hash": "aj+XVWPUIR+0UWvtr+7h/0MDPX/7IzS60LO3CvQSdEY=",
   "Source": "CleanApp.API",
   "BasePath": "_content/CleanApp.API",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "D:\\Dev\\Software\\Projects\\NetCoreApiWebNlayerCleanArchitecture\\App.API\\App.API.csproj",
-      "Version": 2,
-      "Source": "App.API",
-      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
   "Assets": []
 }
