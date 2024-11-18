@@ -8,6 +8,7 @@ using App.Application.Features.Products.Dto;
 using App.Application.Features.Products.Update;
 using App.Application.Features.Products.UpdateStock;
 using App.Domain.Entities;
+using App.Domain.Events;
 using AutoMapper;
 using FluentValidation;
 
@@ -92,7 +93,7 @@ namespace App.Services.Products
             await productRepository.AddAsync(product);
             await unitOfWork.SaveChangesAsync();
 
-
+            await busService.PublishAsync(new ProductAddedEvent(product.Id, product.Name, product.Price));
 
             return ServiceResult<CreateProductResponse>.SuccessAsCreated(new CreateProductResponse(product.Id), $"api/products/{product.Id}");
         }
