@@ -1,6 +1,7 @@
 ﻿using App.Application;
 using App.Application.Contracts.Caching;
 using App.Application.Contracts.Persistence;
+using App.Application.Contracts.ServiceBus;
 using App.Application.Features.Products;
 using App.Application.Features.Products.Create;
 using App.Application.Features.Products.Dto;
@@ -15,7 +16,7 @@ namespace App.Services.Products
     public class ProductService(IProductRepository productRepository,
         IUnitOfWork unitOfWork,
         IValidator<CreateProductRequest> createProductRequestValidator,
-        IMapper mapper, ICacheService cacheService) : IProductService
+        IMapper mapper, ICacheService cacheService, IServiceBus busService) : IProductService
 
     {
 
@@ -90,6 +91,9 @@ namespace App.Services.Products
 
             await productRepository.AddAsync(product);
             await unitOfWork.SaveChangesAsync();
+
+
+
             return ServiceResult<CreateProductResponse>.SuccessAsCreated(new CreateProductResponse(product.Id), $"api/products/{product.Id}");
         }
 
