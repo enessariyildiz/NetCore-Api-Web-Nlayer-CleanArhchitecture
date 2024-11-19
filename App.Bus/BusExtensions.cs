@@ -1,5 +1,6 @@
-﻿using App.Bus.Consumers;
-using App.Domain.Events;
+﻿using App.Application.Contracts.ServiceBus;
+using App.Bus.Consumers;
+using App.Domain.Const;
 using App.Domain.Options;
 using MassTransit;
 using Microsoft.Extensions.Configuration;
@@ -13,13 +14,22 @@ namespace App.Bus
         {
             var serviceBusOption = configuration.GetSection(nameof(ServiceBusOptions)).Get<ServiceBusOptions>();
 
-            services.AddMassTransit(x => x.UsingRabbitMq((context, cfg) =>
-            {
+            services.AddScoped<IServiceBus, ServiceBus>();
 
+            services.AddMassTransit(x =>
+            {
                 x.AddConsumer<ProductAddedEventConsumer>();
 
-                cfg.Host(new Uri(serviceBusOption!.Url), h => { });
-            }));
+                x.UsingRabbitMq((context, cfg) =>
+                {
+                    cfg.Host(new Uri(serviceBusOption!.Url), h => { });
+
+                    cfg.ReceiveEndpoint(ServiceBusConst.ProductAddedEventQueueName, e =>
+                    {
+                        e.ConfigureConsumer<ProductAddedEventConsumer>(context);
+                    });
+                });
+            });
         }
     }
 }

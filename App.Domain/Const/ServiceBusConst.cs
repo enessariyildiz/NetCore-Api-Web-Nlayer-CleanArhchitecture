@@ -3,6 +3,6 @@
     public class ServiceBusConst
     {
         // <app.<eventname>.<queue-name>
-        public const string ProductAddedEvent = "clean.app.productaddedcreated.event.queue";
+        public const string ProductAddedEventQueueName = "clean.app.productadded.event.queue";
     }
 }
